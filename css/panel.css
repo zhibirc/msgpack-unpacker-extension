@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #1e1e1e;
+    --panel-bg: #252526;
+    --text-color: #d4d4d4;
+    --highlight: #4a90e2;
+    --font-family: Courier, monospace;
+    --font-size: 12px;
+}
+
+html, body {
+    margin: 0;
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+details {
+    background-color: var(--panel-bg);
+    border: 1px solid #3c3c3c;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+summary {
+    color: var(--highlight);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+pre {
+    background-color: var(--bg-color);
+    border: 1px solid #3c3c3c;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    overflow: auto;
+    max-height: 300px;
+}
