@@ -12,7 +12,20 @@
     <img src="ui.png" />
 </div>
 
+## Overview
+
 [MessagePack](https://msgpack.org/) is the incredible alternative for serializing data in network transmissions.
 However, it has one significant drawback in compare with widely used and familiar JSON format -- its readability by humans.
 
 This extension makes an attempt to compensate this inconvenience by unpacking MessagePack-decoded payloads to the regular JSON, and displaying it into separate DevTools tab.
+
+## Usage
+
+- Clone this repository.
+- Load the whole directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
+- Open DevTools and click the **MsgPack Unpacker** tab.
+- Open any web page served MsgPack payloads, the decoded JSON will automatically be displayed in the panel.
+
+## Contributing
+
+Pull requests which aim to enhance, improve or fix something are highly welcome.
